@@ -29,7 +29,7 @@ public class Main {
         /**
          * Aquí se utiliza el método replace para decirle al programa que reemplaze los parentesis y guiones por espacios en blanco de la cadena de texto.
          */
-        String datosTelefonicos = numerosTelefonicos.replace("(", "" ).replace(")", "").replace("-", "");
+        String datosTelefonicos = numerosTelefonicos.replace("(", "" ).replace(")", "").replace("-", "").replace(" ", "");
         
         /**
          * Aquí armamos el array string de los números para separarlos por comas.
